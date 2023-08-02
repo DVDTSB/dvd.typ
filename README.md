@@ -14,6 +14,9 @@ my typst template. It's alright.
 - outline (for now only for headers), modified from some code kindly donated by [xkevio](https://github.com/xkevio), i'll have to change this using `outline.entry`.
 - theorems, using a slightly modified version of [typst-theorems](https://github.com/sahasatvik/typst-theorems). I still have to work on this for easier use.
 
+## How To
+pls look at the example.
+
 ## To Do
 - organize stuff
 - add options
