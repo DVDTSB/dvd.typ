@@ -11,7 +11,7 @@
     let ch = if h.level == 1 {
       strong[#counter("h").display("I.")]
     } else {
-      counter("h").display("I.")
+      counter("h").display("I.1")
     }
     let heading = if h.level == 1 {
       strong[#h.body]
