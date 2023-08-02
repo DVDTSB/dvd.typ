@@ -7,7 +7,7 @@
 ██████╔╝░╚████╔╝ ██████╔╝██╗░░░██║░░░░░░██║░░░██║░░░░░
 ╚═════╝░░░╚═══╝░░╚═════╝░╚═╝░░░╚═╝░░░░░░╚═╝░░░╚═╝░░░░░
 ```
-my typst template. It's alright.
+my typst template. it's alright.
 
 ## Features
 - title, Subtitle, Author
