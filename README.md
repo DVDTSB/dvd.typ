@@ -22,7 +22,7 @@ pls look at the example.
 - add options
 - make theorems interact between them more nicely
 - abstract (I don't know how I forgot about this)
-- remake outline using `outline.entry` (thank's for the suggestion [xkevio](https://github.com/xkevio))
+- remake outline using `outline.entry` (thanks for the suggestion [xkevio](https://github.com/xkevio))
 - LaTeX inspired `part` thing?
 
 ## Contribute
