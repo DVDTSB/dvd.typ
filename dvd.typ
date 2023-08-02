@@ -90,14 +90,14 @@
   )
 )
 
-#let shadowblock(content, fill: white, stroke:2pt, inset:1em, radius:3pt, breakable:false, width: 100%, shadowsize:3pt) = layout((sz) => style((s) => {
+#let shadowblock(content, fill: white, stroke:2pt, inset:1em, radius:3pt, breakable:true, width: 100%, shadowsize:3pt) = layout((sz) => style((s) => {
   let content = block(
     stroke: stroke, inset: inset, radius: radius, fill: fill,
     width: sz.width,
     content
   )
   let content-h = measure(content, s).height
-  block[
+  block(breakable: false)[
     #place(top + left, dx: shadowsize, dy: shadowsize,
       block(width: 100%, height: content-h, radius: radius, fill: luma(70%))
     )
@@ -203,22 +203,6 @@
 }
 
 
-#let shadowblock(content, fill: white, stroke:2pt, inset:1em, radius:3pt, breakable:false, width: 100%, shadowsize:0pt, outset:0pt) = layout((sz) => style((s) => {
-  let content = block(
-    stroke: stroke, inset: inset, radius: radius, fill: fill,
-    width: sz.width,
-    outset: outset,
-    content
-  )
-  let content-h = measure(content, s).height
-  block[
-    #place(top + left, dx: shadowsize, dy: shadowsize,
-      block(width: 100%, height: content-h, radius: radius, fill: luma(70%))
-    )
-    #content
-  ]
-  
-}))
 
 #let thmbox(
   identifier,
