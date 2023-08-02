@@ -15,6 +15,7 @@ my typst template. It's alright.
 - theorems, using a slightly modified version of [typst-theorems](https://github.com/sahasatvik/typst-theorems). I still have to work on this for easier use.
 
 ## To Do
+- organize stuff
 - add options
 - make theorems interact between them more nicely
 - abstract (I don't know how I forgot about this)
