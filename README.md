@@ -24,6 +24,7 @@ pls look at the example.
 - abstract (I don't know how I forgot about this)
 - remake outline using `outline.entry` (thanks for the suggestion [xkevio](https://github.com/xkevio))
 - LaTeX inspired `part` thing?
+- bibliography (didn't test or work on it at all tbh)
 
 ## Contribute
 - if you have anything that you would like to be added don't be scared to make an issue on here.
