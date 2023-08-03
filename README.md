@@ -18,13 +18,13 @@ my typst template. it's alright.
 pls look at the example.
 
 ## To Do
-[] organize stuff
-[] add options
-[] make theorems interact between them more nicely
-[] abstract (I don't know how I forgot about this)
-[] remake outline using `outline.entry` (thanks for the suggestion [xkevio](https://github.com/xkevio))
-[] LaTeX inspired `part` thing?
-[] bibliography (i want to style it differently but typst doesnt allow that yet)
+[ ] organize stuff
+[ ] add options
+[ ] make theorems interact between them more nicely
+[ ] abstract (I don't know how I forgot about this)
+[ ] remake outline using `outline.entry` (thanks for the suggestion [xkevio](https://github.com/xkevio))
+[ ] LaTeX inspired `part` thing?
+[ ] bibliography (i want to style it differently but typst doesnt allow that yet)
 
 ## Contribute
 - if you have anything that you would like to be added don't be scared to make an issue on here.
